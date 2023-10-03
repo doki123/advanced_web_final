@@ -1,0 +1,17 @@
+#content img, video { max-width: 100%;
+		height: auto; }
+
+article { border: 1px solid black; 
+	  padding-left: 1%; 
+	  padding-right: 1%; 
+	  padding-bottom: 2%; 
+	  text-align: center;
+	  margin-bottom: 3%; }
+
+@media only screen and (min-width: 769px) { 
+
+	article { width: 68%; 
+		  margin-left: 15%;
+		  margin-right: 15%; }
+
+}

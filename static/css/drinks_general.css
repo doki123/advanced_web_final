@@ -1,0 +1,57 @@
+#create, #drinks section { border: 1px solid black; }
+
+#drinks section { margin-bottom: 5%; 
+		  text-align: center; }
+
+@media only screen and (min-width: 770px) { 
+	
+	#create { width: 40%;
+		  float: left;
+		  padding-left: 1%;	
+		  padding-right: 1%; 
+		  margin-left: 1%; }
+
+	#drinks section { width: 16%;
+			  margin-left: 1.25%;
+			  float: left; }
+
+	#drinks section h3 { height: 45px;  }
+
+	#drinks section img { width: 100%; }
+ }
+	
+
+@media only screen and (min-width: 481px) and (max-width: 769px) { 
+
+	#create { width: 90%; 
+		  padding-left: 10%; 
+		  margin-bottom: 3%; }		
+					
+	#drinks section { width: 37%;
+			  margin-left: 8%;
+			  padding-left: 1.5%;
+			  padding-right: 1.5%;
+			  float: left; }
+	
+	#drinks section h3 { height: 45px;  }
+	
+	#drinks section img { width: 100%; } 
+}
+
+@media only screen and (max-width: 480px) { 
+
+	#create { width: 95%; 
+		  padding-left: 2.5%; 
+		  padding-right: 2.5%;
+		  margin-bottom: 3%; }	
+
+	#drinks section { padding-left: 0.5%;	
+			  padding-right: 0.5%;
+			  width: 89%; 
+			  margin-left: 5%;
+			  margin-right: 5%; }
+
+	#drinks img { width: 100%; }	
+
+	}
+ 

@@ -1,0 +1,21 @@
+article { border: 1px solid black; 
+	  margin-bottom: 3%; 
+	  padding: 1%; 
+	  padding-bottom: 3%; }
+
+@media only screen and (min-width: 769px) { 
+
+	#content { display: flex;
+		   justify-content: space-between; }
+
+	article { width: 30%; }
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+	#misc, #sign-up { text-align: center; }
+
+	input { width: 50%; }
+
+}
